@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: 1.286.0
+description: Instana Agent for Kubernetes
+name: instana-agent
+version: 2.0.3
+type: application
+dependencies:
+- name: instana-agent
+  version: 2.0.3
+   repository: https://agents.instana.io/helm
